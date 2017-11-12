@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+body{
+  font-family: 'Bree Serif', serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: lightgray;
+}
+
+/* only for the heading above the introduction */
+#intro{
+  padding:10px;
+  background-color:MediumSeaGreen;
+}
+
+/* the four stages have the following theme*/
+.banner{
+  padding: 10px;
+  background-color: dodgerblue;
+}
+
+.para_color{
+  padding: 10px;
+  background-color: tomato;
+}
+
+
+/* this is for the credit link on the bottom*/
+
+a:link { /* unvisited link */
+  color: red;
+}
+a:visited { /* visited link */
+  color: blue;
+}
+a:hover { /* moused over link */
+  color: green;
